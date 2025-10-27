@@ -18,7 +18,7 @@ public class Vehicle {
 //    }
 
     public String transforming(){
-        String r = "Autobot Transforming";
+        String r = "Autobot Transforming Into: ";
         return r;
     }
     public String getColor() {
