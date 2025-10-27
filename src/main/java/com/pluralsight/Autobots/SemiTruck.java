@@ -10,12 +10,12 @@ public class SemiTruck extends Vehicle {
     public SemiTruck(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
         super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
     }
-@Override
-public void transforming(){
-      super.transforming();
-
-
-  }
+//@Override
+//public void transforming(){
+//      super.transforming();
+//
+//
+//  }
     public int getTrailerLength() {
         return trailerLength;
     }

@@ -16,9 +16,10 @@ public class Vehicle {
 //    public void transforming() {
 //        System.out.println("Autobot Transforming");
 //    }
+
     public String transforming(){
-        System.out.println("Autobot Transforming");
-        return null;
+        String r = "Autobot Transforming";
+        return r;
     }
     public String getColor() {
         return color;

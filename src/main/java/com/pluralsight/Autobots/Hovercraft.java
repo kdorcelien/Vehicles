@@ -18,7 +18,7 @@ public class Hovercraft extends Vehicle {
 //    }
 
     public void tranformation(){
-        System.out.println(super.transforming() + "Into a hovercraft, allowing for high speeds on water and limited movement on land. ");
+        System.out.println(super.transforming() + " Into a hovercraft, allowing for high speeds on water and limited movement on land. ");
     }
 
     public int getCargoWeight() {
