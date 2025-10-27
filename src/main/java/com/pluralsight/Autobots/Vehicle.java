@@ -1,4 +1,4 @@
-package com.pluralsight.VehicleType;
+package com.pluralsight.Autobots;
 
 public class Vehicle {
    protected String color;

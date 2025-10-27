@@ -1,9 +1,9 @@
 package com.pluralsight;
 
-import com.pluralsight.VehicleType.Car;
-import com.pluralsight.VehicleType.Hovercraft;
-import com.pluralsight.VehicleType.Moped;
-import com.pluralsight.VehicleType.SemiTruck;
+import com.pluralsight.Autobots.Car;
+import com.pluralsight.Autobots.Hovercraft;
+import com.pluralsight.Autobots.Moped;
+import com.pluralsight.Autobots.SemiTruck;
 
 public class MainApp {
     public static void main(String[] args) {
