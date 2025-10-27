@@ -5,6 +5,10 @@ public class Car extends Vehicle {
     private boolean isAutobots;
     private String voiceModule;
 
+    public Car(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+    }
+
 
     public int getNumDoors() {
         return numDoors;

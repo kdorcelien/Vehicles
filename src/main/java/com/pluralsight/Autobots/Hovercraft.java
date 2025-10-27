@@ -6,6 +6,10 @@ public class Hovercraft extends Vehicle {
     private String equipment;
     private String motto;
 
+    public Hovercraft(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
+        super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+    }
+
     public int getCargoWeight() {
         return cargoWeight;
     }
@@ -22,7 +26,7 @@ public class Hovercraft extends Vehicle {
         this.personality = personality;
     }
 
-    public String getEquipment() {
+    public String getEquipment(String rocketLaunchers) {
         return equipment;
     }
 
