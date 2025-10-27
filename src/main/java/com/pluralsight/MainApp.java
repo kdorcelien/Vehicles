@@ -19,7 +19,9 @@ public class MainApp {
 
         Hovercraft seaSpray = new Hovercraft("Purple", 2,10,11);
         seaSpray.setMotto("Be unyielding as the ocean waves and your enemies shall fall");
-        seaSpray.getEquipment("Rs23");
+        seaSpray.setEquipment("Rocket Launcher");
+        seaSpray.setPersonality("Enthusiastic about his role and loves the ocean, but is often saddened by having to revert to his robot form on land");
+        seaSpray.tranformation();
 
     }
 }

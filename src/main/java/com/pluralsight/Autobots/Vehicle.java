@@ -13,7 +13,13 @@ public class Vehicle {
         this.cargoCapacity = cargoCapacity;
         this.fuelCapacity = fuelCapacity;
     }
-
+//    public void transforming() {
+//        System.out.println("Autobot Transforming");
+//    }
+    public String transforming(){
+        System.out.println("Autobot Transforming");
+        return null;
+    }
     public String getColor() {
         return color;
     }

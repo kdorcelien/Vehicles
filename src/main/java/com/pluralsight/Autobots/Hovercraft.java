@@ -1,5 +1,7 @@
 package com.pluralsight.Autobots;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Hovercraft extends Vehicle {
     private int cargoWeight;
     private String personality;
@@ -8,6 +10,15 @@ public class Hovercraft extends Vehicle {
 
     public Hovercraft(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity) {
         super(color, numberOfPassengers, cargoCapacity, fuelCapacity);
+    }
+//    @Override
+//    public void transforming(){
+//       super.transforming()
+
+//    }
+
+    public void tranformation(){
+        System.out.println(super.transforming() + "Into a hovercraft, allowing for high speeds on water and limited movement on land. ");
     }
 
     public int getCargoWeight() {
@@ -26,7 +37,7 @@ public class Hovercraft extends Vehicle {
         this.personality = personality;
     }
 
-    public String getEquipment(String rocketLaunchers) {
+    public String getEquipment() {
         return equipment;
     }
 
@@ -40,5 +51,15 @@ public class Hovercraft extends Vehicle {
 
     public void setMotto(String motto) {
         this.motto = motto;
+    }
+
+    @Override
+    public String toString() {
+        return "Hovercraft: " +
+                "cargoWeight= " + cargoWeight +
+                ", personality=  " + personality + '\'' +
+                ", equipment= " + equipment + '\'' +
+                ", motto= " + motto + '\'' +
+                '}';
     }
 }
